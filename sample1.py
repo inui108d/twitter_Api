@@ -5,7 +5,7 @@ import json
 from requests_oauthlib import OAuth1Session
 
 with open("secret.json") as f:
-  secretjson = json.load(f)
+    secretjson = json.load(f)
 
 # ツイート投稿用のURL
 url = "https://api.twitter.com/1.1/statuses/update.json"
